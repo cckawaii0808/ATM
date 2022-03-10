@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ccplay.atm">
 
+    <uses-permission android:name="android.permission.INTERNET" />//要取得網路權限
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
