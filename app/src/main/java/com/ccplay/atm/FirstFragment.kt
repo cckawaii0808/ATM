@@ -48,8 +48,8 @@ class FirstFragment : Fragment() {
             if (username == "cc" &&
                 password == "1234"
             ) {
-                val pref = requireContext().getSharedPreferences("atm",
-                    Context.MODE_PRIVATE)//設定atm物件 要獲得使用者帳號密碼的記憶
+                //val pref = requireContext().getSharedPreferences("atm",
+                  //  Context.MODE_PRIVATE)//設定atm物件 要獲得使用者帳號密碼的記憶
                 pref.edit()
                     .putString("USER", username)
                     .putInt("LEVEL", 3)
